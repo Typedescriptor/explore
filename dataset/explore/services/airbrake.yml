@@ -1,0 +1,25 @@
+- service: Airbrake
+  logo_url: https://airbrake.io/docs/assets/img/logos/airbrake-logo.svg
+  homepage_url: https://airbrake.io
+  packages:
+	  - name: Sharpbrake.Client
+      official: yes
+	  - name: Sharpbrake.Extensions.Logging
+      integration: yes
+	  - name: Sharpbrake.Http.Middleware
+      integration: yes
+	  - name: Sharpbrake.Http.Module
+      integration: yes
+	  - name: Sharpbrake.Log4net
+      integration: yes
+	  - name: Sharpbrake.Log4net.Web
+      integration: yes
+	  - name: Sharpbrake.NLog
+      integration: yes
+	  - name: Sharpbrake.NLog.Web
+      integration: yes
+  tags:
+    - application monitoring
+    - logging
+  links:
+    - https://airbrake.io/docs/installing-airbrake/installing-airbrake-in-a-net-application/

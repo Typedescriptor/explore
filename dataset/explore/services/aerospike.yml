@@ -1,0 +1,12 @@
+- service: Aerospike
+  logo_url: ~
+  homepage_url: https://www.aerospike.com/
+  packages:
+    - name: Aerospike.Client
+      official: yes
+  tags:
+    - database
+    - nosql
+  links:
+    - https://www.aerospike.com/docs/client/csharp/
+    - https://www.aerospike.com/docs/client/csharp/install/install_core.html

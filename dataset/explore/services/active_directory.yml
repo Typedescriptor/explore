@@ -1,0 +1,11 @@
+- service: Microsoft Active Directory
+  logo_url: ~
+  homepage_url: https://azure.microsoft.com/en-us/services/active-directory/
+  packages:
+    - name: Microsoft.Identity.Client
+    - name: Microsoft.IdentityModel.Clients.ActiveDirectory
+    - name: System.DirectoryServices
+  tags:
+    - identity
+    - directory services
+    - ldap

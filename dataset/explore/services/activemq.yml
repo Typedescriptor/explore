@@ -1,0 +1,10 @@
+- service: ActiveMQ
+  logo_url: https://activemq.apache.org/assets/img/activemq_logo_black_small.png
+  homepage_url: https://activemq.apache.org/
+  packages:
+    - name: Apache.NMS.ActiveMQ
+  tags:
+    - messaging
+    - jms
+  links:
+    - https://activemq.apache.org/components/nms/
