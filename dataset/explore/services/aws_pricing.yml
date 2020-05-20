@@ -1,0 +1,14 @@
+- service: AWS Pricing
+  logo_url: https://avatars2.githubusercontent.com/u/2232217?s=400&v=4
+  homepage_url: https://github.com/aws/aws-sdk-net/
+  packages:
+  - name: AWSSDK.Pricing
+    official: true
+  tags:
+  - aws
+  - pricing
+  links:
+  - url: https://aws.amazon.com/
+    title: Amazon Web Services (AWS) - Cloud Computing Services
+  description: 'The official AWS SDK for .NET. For more information on the AWS SDK
+    for .NET, see our web site: - aws/aws-sdk-net'

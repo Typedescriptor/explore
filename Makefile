@@ -1,4 +1,4 @@
 -include eng/.mk/*.mk
 
-start:
-	@ echo 'The Future awaits !'
+enrich:
+	$(Q) enrich -i $(shell find dataset/explore/services/ -type f)

@@ -1,0 +1,15 @@
+- service: Microsoft Azure App Services
+  logo_url: https://azurecomcdn.azureedge.net/cvt-64be09a4667f24e37ba756cd9aacfcf3decbce6fb72c1679c6835655dcc3da36/images/shared/social/azure-icon-250x250.png
+  homepage_url: https://azure.microsoft.com/en-us/services/app-service/
+  packages:
+  - name: Microsoft.Azure.AppService.ApiApps.Service
+    official: true
+  tags:
+  - microsoft
+  - azure
+  - appservice
+  description: Use Azure App Service to create powerful cloud apps for web and mobile
+    clients running on any platform or device faster than ever before.
+  links:
+  - url: https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans
+    title: App Service plans - Azure App Service | Microsoft Docs

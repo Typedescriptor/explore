@@ -2,9 +2,12 @@
   logo_url: https://activemq.apache.org/assets/img/activemq_logo_black_small.png
   homepage_url: https://activemq.apache.org/
   packages:
-    - name: Apache.NMS.ActiveMQ
+  - name: Apache.NMS.ActiveMQ
   tags:
-    - messaging
-    - jms
+  - messaging
+  - jms
   links:
-    - https://activemq.apache.org/components/nms/
+  - url: https://activemq.apache.org/components/nms/
+    title: ActiveMQ
+  description: Apache ActiveMQ is an open source message broker written in Java together
+    with a full Java Message Service (JMS) client

@@ -1,0 +1,14 @@
+- service: Auth0
+  logo_url: https://cdn.auth0.com/website/homepage/tc/twitter-card-en.png
+  homepage_url: https://auth0.com/
+  packages:
+  - name: Auth0.Core
+    official: true
+  tags:
+  - authentication
+  - oauth
+  links:
+  - url: https://auth0.com/docs/quickstart/backend/aspnet-core-webapi
+    title: 'Auth0 ASP.NET Core Web API v2.0 SDK Quickstarts: Authorization'
+  description: Rapidly integrate authentication and authorization for web, mobile,
+    and legacy applications so you can focus on your core business.

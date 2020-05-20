@@ -1,0 +1,13 @@
+- service: Algolia
+  logo_url: https://res.cloudinary.com/hilnmyskv/image/upload/v1527077656/Algolia_OG_image_m3xgjb.png
+  homepage_url: https://www.algolia.com/
+  packages:
+  - name: Algolia.Search
+    official: true
+  tags:
+  - search
+  links:
+  - url: https://www.algolia.com/doc/api-client/getting-started/install/csharp/?language=csharp
+    title: Install the .NET API Client | API Reference | Algolia Documentation
+  description: Algolia helps businesses across industries quickly create relevant,
+    scalable, and lightning fast Search and Discovery experiences.

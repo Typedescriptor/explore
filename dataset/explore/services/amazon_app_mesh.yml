@@ -1,0 +1,13 @@
+- service: AWS App Mesh
+  logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  homepage_url: https://aws.amazon.com/app-mesh/
+  packages:
+  - name: AWSSDK.AppMesh
+    official: true
+  tags:
+  - aws
+  - amazon web services
+  - appmesh
+  description: AWS App Mesh is a service mesh that allows you to easily monitor and
+    control communications across services.
+  links: ~

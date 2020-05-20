@@ -1,0 +1,15 @@
+- service: ClickHouse
+  logo_url: https://clickhouse.tech/images/logo.png
+  homepage_url: https://clickhouse.tech/
+  packages:
+  - name: ClickHouse.Net
+  - name: ClickHouse.Client
+  tags:
+  - clickhouse
+  - nosql
+  - database
+  description: ClickHouse is a fast open-source column-oriented database management
+    system that allows generating analytical data reports in real-time using SQL queries
+  links:
+  - url: https://clickhouse.tech/docs/en/
+    title: Overview - ClickHouse Documentation

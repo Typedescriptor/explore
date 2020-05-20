@@ -1,0 +1,15 @@
+- service: Adyen
+  logo_url: https://docs.adyen.com/user/themes/adyen-docs/images/apple-icon-180x180.png
+  homepage_url: https://www.adyen.com
+  packages:
+  - name: Adyen
+  tags:
+  - adyen
+  - payments
+  links:
+  - url: https://docs.adyen.com/developers/development-resources/libraries
+    title: Libraries | Adyen Docs
+  - url: https://docs.adyen.com/developers/checkout
+    title: Online payments | Adyen Docs
+  description: We provide a single payments platform globally to accept payments and
+    grow revenue online, on mobile, and at the point of sale.

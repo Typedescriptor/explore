@@ -1,0 +1,15 @@
+- service: AWS AppSync
+  logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  homepage_url: https://aws.amazon.com/appsync/
+  packages:
+  - name: AWSSDK.AppSync
+    official: true
+  tags:
+  - aws
+  - amazon web services
+  - appsync
+  description: AWS AppSync automatically updates the data in web and mobile applications
+    in real time, and updates data for offline users as soon as they reconnect. AppSync
+    makes it easy to build collaborative mobile and web applications that deliver
+    responsive, collaborative user experiences.
+  links: ~

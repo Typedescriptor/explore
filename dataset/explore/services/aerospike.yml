@@ -1,12 +1,15 @@
 - service: Aerospike
-  logo_url: ~
+  logo_url: https://www.aerospike.com/
   homepage_url: https://www.aerospike.com/
   packages:
-    - name: Aerospike.Client
-      official: yes
+  - name: Aerospike.Client
+    official: true
   tags:
-    - database
-    - nosql
+  - database
+  - nosql
   links:
-    - https://www.aerospike.com/docs/client/csharp/
-    - https://www.aerospike.com/docs/client/csharp/install/install_core.html
+  - url: https://www.aerospike.com/docs/client/csharp/
+    title: Documentation | Aerospike
+  - url: https://www.aerospike.com/docs/client/csharp/install/install_core.html
+    title: Documentation | Aerospike
+  description: High performance enterprise grade NoSQL database with strong consistency.

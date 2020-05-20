@@ -1,0 +1,15 @@
+- service: Microsoft Azure Batch
+  logo_url: https://azurecomcdn.azureedge.net/cvt-64be09a4667f24e37ba756cd9aacfcf3decbce6fb72c1679c6835655dcc3da36/images/shared/social/azure-icon-250x250.png
+  homepage_url: https://azure.microsoft.com
+  packages:
+  - name: Microsoft.Azure.Batch
+  tags:
+  - microsoft
+  - azure
+  - batch
+  links:
+  - url: https://docs.microsoft.com/en-us/azure/batch
+    title: Azure Batch documentation - Azure Batch | Microsoft Docs
+  description: "Invent with purpose, realize cost savings, and make your organization\
+    \ more efficient with Microsoft Azure\u2019s open and flexible cloud computing\
+    \ platform."

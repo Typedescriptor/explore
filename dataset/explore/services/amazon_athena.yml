@@ -1,0 +1,14 @@
+- service: AWS Athena
+  logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  homepage_url: https://aws.amazon.com/athena/
+  packages:
+  - name: AWSSDK.Athena
+    official: true
+  tags:
+  - aws
+  - amazon web services
+  - athena
+  description: Amazon Athena is a serverless, interactive query service to query data
+    and analyze big data in Amazon S3 using standard SQL. Most results are delivered
+    within seconds.
+  links: ~

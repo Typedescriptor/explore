@@ -1,0 +1,14 @@
+- service: AWS API Gateway
+  logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  homepage_url: https://aws.amazon.com/api-gateway/
+  packages:
+  - name: AWSSDK.ApiGateway
+    official: true
+  tags:
+  - aws
+  - amazon web services
+  - apim
+  - api gateway
+  description: Build HTTP, REST, and WebSocket APIs with a fully managed service that
+    makes it easy to create, publish, maintain, monitor, and secure APIs.
+  links: ~

@@ -1,0 +1,13 @@
+- service: Adobe Sign
+  homepage_url: https://acrobat.adobe.com/us/en/sign.html
+  packages:
+  - name: AdobeSign
+  tags:
+  - esign
+  - adobe
+  description: "Adobe Sign, the world\u2019s most trusted e-sign solution, makes signing\
+    \ documents fast, easy and highly secure. Get started with a free trial."
+  links:
+  - url: https://acrobat.adobe.com/us/en/sign/developer-form.html
+    title: Create Developer Account, APIs for custom applications | Adobe Sign
+  logo_url: https://acrobat.adobe.com/content/dam/dx-dc/favicons/favicon.ico
