@@ -1,0 +1,144 @@
+#!/usr/bin/env python3
+
+# -*- mode: python -*-
+
+"""Enrichment tool
+
+Usage:
+  enrich [options] <file>...
+
+  -i                    Update files in place instead of printing output
+  --help                Show this screen
+  --version             Show version
+
+"""
+from docopt import docopt
+
+import requests
+from sys import stderr
+from os import path, environ
+import sys
+import yaml
+from bs4 import BeautifulSoup
+
+
+# Allow importing modules from the project directory
+sys.path.append(path.abspath(path.dirname(__file__) + "/.."))
+
+debug = lambda text: None
+
+
+def run(args):
+    for file in args["<file>"]:
+        _enrich(file, args["-i"])
+
+
+def _enrich(file: str, in_place: bool):
+    with open(file, "r") as f:
+        y = yaml.load(f, Loader=yaml.FullLoader)
+
+    for item in y:
+        if "service" in item:
+            _core_enrich_service(item)
+
+    output = sys.stdout
+    if in_place:
+        output = open(file, "w")
+    yaml.dump(y, output, sort_keys=False)
+
+
+def _core_enrich_service(service):
+    for k, v in enrichments.items():
+        enricher = enrichments[k]
+        service[k] = enricher(service, v) or service.get(k)
+
+
+def _get_page(url: str) -> BeautifulSoup:
+    if url is None:
+        return BeautifulSoup()
+
+    debug(f"Download page '{url}'")
+    page = requests.get(url).text
+    return BeautifulSoup(page, features="html.parser")
+
+
+def _enrich_description(service, value):
+    if service.get("description") is not None:
+        return None
+    page = _get_page(service["homepage_url"])
+
+    result = (
+        page.find("meta", attrs={"name": "og:description"})
+        or page.find("meta", attrs={"property": "og:description"})
+        or page.find("meta", attrs={"name": "description"})
+        or {}
+    )
+    return result["content"]
+
+
+def _enrich_links(service, value):
+    if "links" not in service:
+        return None
+    try:
+        iterator = iter(service["links"])
+    except TypeError:
+        return None
+
+    for index, link in enumerate(service["links"]):
+        if isinstance(link, str):
+            page = _get_page(link)
+            service["links"][index] = {"url": link, "title": _page_title(page)}
+
+
+def _enrich_logo_url(service, value):
+    if service.get("logo_url") is not None:
+        return None
+
+    page = _get_page(service["homepage_url"])
+    result = (
+        page.find("meta", attrs={"name": "og:image"})
+        or page.find("meta", attrs={"property": "og:image"})
+        or page.find("link", attrs={"rel": "apple-touch-icon"})
+        or page.find("link", attrs={"rel": "fluid-icon"})
+        or page.find("link", attrs={"rel": "icon"})
+        or {}
+    )
+    return result.get("content") or result.get("href")
+
+
+def _enrichment_name(symbol):
+    return symbol[len("_enrich_") :]
+
+
+def _debug(text):
+    sys.stderr.write(text)
+    sys.stderr.write("\n")
+
+
+def _page_title(s: BeautifulSoup) -> str:
+    result = s.find("title")
+    if result is not None:
+        return result.text
+    return None
+
+
+if environ.get("DEBUG", "0") != "0":
+    debug = _debug
+
+
+def _represent_none(self, _):
+    return self.represent_scalar("tag:yaml.org,2002:null", "~")
+
+
+yaml.add_representer(type(None), _represent_none)
+
+enrichments = {
+    _enrichment_name(k): v
+    for k, v in locals().items()
+    if callable(v) and k.startswith("_enrich_")
+}
+
+
+if __name__ == "__main__":
+    arguments = docopt(__doc__, version="enrich/1.0")
+    exit(run(arguments))
