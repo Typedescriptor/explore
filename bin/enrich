@@ -16,41 +16,71 @@ from docopt import docopt
 
 import requests
 from sys import stderr
-from os import path, environ
+from os import path, environ, devnull
 import sys
 import yaml
 from bs4 import BeautifulSoup
+from copy import deepcopy
+import urllib.parse
 
 
 # Allow importing modules from the project directory
 sys.path.append(path.abspath(path.dirname(__file__) + "/.."))
 
 debug = lambda text: None
+global_session = requests.Session()
 
 
 def run(args):
-    for file in args["<file>"]:
-        _enrich(file, args["-i"])
+    change_count = 0
+    files = args["<file>"]
+    for file in files:
+        changed = _enrich(file, args["-i"])
+        if changed:
+            change_count += 1
+            sys.stderr.write(f"enriched {file}\n")
+    sys.stderr.write("All done! ✨ 🍰 ✨\n")  # ...yup, black
+
+    file_count = _files(len(files))
+    if change_count == 0:
+        sys.stderr.write(f"{file_count} left unchanged.\n")
+    else:
+        sys.stderr.write(f"Changed {_files(change_count)}\n")
+
+
+def _files(count: int) -> str:
+    if count == 1:
+        return "1 file"
+    return f"{count} files"
 
 
 def _enrich(file: str, in_place: bool):
     with open(file, "r") as f:
         y = yaml.load(f, Loader=yaml.FullLoader)
 
+    changed = False
     for item in y:
         if "service" in item:
-            _core_enrich_service(item)
+            changed = changed | _core_enrich_service(item)
 
     output = sys.stdout
     if in_place:
-        output = open(file, "w")
+        if not changed:
+            output = open(devnull, "w")
+        else:
+            output = open(file, "w")
     yaml.dump(y, output, sort_keys=False)
+    return changed
 
 
-def _core_enrich_service(service):
+def _core_enrich_service(service) -> bool:
+    original_service = deepcopy(service)
     for k, v in enrichments.items():
         enricher = enrichments[k]
-        service[k] = enricher(service, v) or service.get(k)
+        old_value = service.get(k)
+        new_value = enricher(service, old_value) or old_value
+        service[k] = new_value
+    return original_service != service
 
 
 def _get_page(url: str) -> BeautifulSoup:
@@ -58,13 +88,13 @@ def _get_page(url: str) -> BeautifulSoup:
         return BeautifulSoup()
 
     debug(f"Download page '{url}'")
-    page = requests.get(url).text
+    page = global_session.get(url).text
     return BeautifulSoup(page, features="html.parser")
 
 
 def _enrich_description(service, value):
-    if service.get("description") is not None:
-        return None
+    if value is not None:
+        return _normalize_ws(value)
     page = _get_page(service["homepage_url"])
 
     result = (
@@ -73,28 +103,38 @@ def _enrich_description(service, value):
         or page.find("meta", attrs={"name": "description"})
         or {}
     )
-    return result["content"]
+    return _normalize_ws(result.get("content"))
 
 
 def _enrich_links(service, value):
     if "links" not in service:
         return None
     try:
-        iterator = iter(service["links"])
+        iterator = iter(value)
     except TypeError:
         return None
 
-    for index, link in enumerate(service["links"]):
+    for index, link in enumerate(value):
         if isinstance(link, str):
             page = _get_page(link)
             service["links"][index] = {"url": link, "title": _page_title(page)}
+        elif link.get("title") is None:
+            page = _get_page(link.get("url"))
+            value[index]["title"] = _page_title(page)
+        else:
+            value[index]["title"] = _normalize_ws(link.get("title"))
+            value[index]["url"] = _normalize_ws(link.get("url"))
+    return value
 
 
 def _enrich_logo_url(service, value):
     if service.get("logo_url") is not None:
         return None
 
-    page = _get_page(service["homepage_url"])
+    homepage_url = service["homepage_url"]
+    if homepage_url is None:
+        return None
+    page = _get_page(homepage_url)
     result = (
         page.find("meta", attrs={"name": "og:image"})
         or page.find("meta", attrs={"property": "og:image"})
@@ -103,7 +143,11 @@ def _enrich_logo_url(service, value):
         or page.find("link", attrs={"rel": "icon"})
         or {}
     )
-    return result.get("content") or result.get("href")
+
+    # Could be a relative URL
+    return urllib.parse.urljoin(
+        homepage_url, result.get("content") or result.get("href")
+    )
 
 
 def _enrichment_name(symbol):
@@ -120,6 +164,12 @@ def _page_title(s: BeautifulSoup) -> str:
     if result is not None:
         return result.text
     return None
+
+
+def _normalize_ws(s: str) -> str:
+    if s is None:
+        return None
+    return " ".join(s.split()).strip()
 
 
 if environ.get("DEBUG", "0") != "0":
