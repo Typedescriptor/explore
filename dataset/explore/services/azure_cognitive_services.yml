@@ -1,0 +1,20 @@
+- service: Microsoft Azure Cognitive Services
+  homepage_url: https://azure.microsoft.com/en-us/services/cognitive-services/
+  packages:
+  - name: Microsoft.Azure.CognitiveServices.Language.TextAnalytics
+    official: true
+  - name: Microsoft.Azure.CognitiveServices.Vision.Face
+    official: true
+  - name: Microsoft.Azure.Management.CognitiveServices
+    official: true
+  - name: Microsoft.Azure.CognitiveServices.Vision.ComputerVision
+    official: true
+  tags:
+  - microsoft azure
+  - azure
+  - cognitive services
+  - ai
+  description: "Azure Cognitive Services brings AI within reach of every developer\
+    \ through a family of APIs that don\u2019t require machine-learning expertise."
+  links: ~
+  logo_url: https://azurecomcdn.azureedge.net/cvt-72da57fecd66217469615fadb08e6c7b0d54dc23f3cf0546feb5c35814f3fc96/images/shared/social/azure-icon-250x250.png

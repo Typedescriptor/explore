@@ -1,0 +1,10 @@
+- service: Apache Druid
+  homepage_url: https://druid.apache.org/
+  packages:
+  - name: Druid4net
+  tags:
+  - real-time analytics
+  - database
+  description: Apache Druid is a column-oriented, open-source, distributed data store written in Java. Druid is designed to quickly ingest massive quantities of event data, and provide low-latency queries on top of the data.
+  links: ~
+  logo_url: https://druid.apache.org/img/favicon.png

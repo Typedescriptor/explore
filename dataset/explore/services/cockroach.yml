@@ -1,0 +1,17 @@
+- service: CockroachDB
+  homepage_url: https://www.cockroachlabs.com/product/
+  packages:
+  - name: Npgsql
+    recommended: true
+  tags:
+  - distributed sql
+  - database
+  description: Distributed SQL gives you resilient, horizontal scale across multiple
+    clouds with always-on availability and data partitioned by location.
+  links:
+  - url: https://www.cockroachlabs.com/docs/stable/install-client-drivers.html
+    title: Install a Postgres Client | CockroachDB Docs
+  - url: https://www.cockroachlabs.com/docs/stable/build-a-csharp-app-with-cockroachdb.html
+    title: Build a C# App with CockroachDB and the .NET Npgsql Driver | CockroachDB
+      Docs
+  logo_url: https://www.cockroachlabs.com/wp-content/uploads/2020/01/BSL-hero.jpg

@@ -1,0 +1,15 @@
+- service: AWS CloudFront
+  homepage_url: https://aws.amazon.com/cloudfront/
+  packages:
+  - name: AWSSDK.CloudFront
+    official: true
+  tags:
+  - amazon
+  - aws
+  - cloudfront
+  - cdn
+  description: Amazon CloudFront is a fast content delivery network (CDN) service
+    that securely delivers data, videos, applications, and APIs to customers globally
+    with low latency, high transfer speeds, all within a developer friendly environment.
+  links: ~
+  logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png

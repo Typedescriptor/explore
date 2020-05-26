@@ -1,0 +1,17 @@
+- service: Bonsai
+  homepage_url: https://bonsai.io
+  packages:
+  - name: Elasticsearch.Net
+    recommended: true
+  - name: NEST
+    recommended: true
+  tags:
+  - search
+  - Elasticsearch
+  description: Grow your search engine on Bonsai. Launch a production-grade, High
+    Availability Elasticsearch cluster for free. Our support staff of developers is
+    here to help every step of the way.
+  links:
+  - url: https://docs.bonsai.io/article/104-dot-net
+    title: .NET - bonsai
+  logo_url: https://bonsai.io/img/og/default-social-share-facebook.jpg

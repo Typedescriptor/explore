@@ -1,0 +1,14 @@
+- service: ConfigCat
+  homepage_url: https://configcat.com/
+  packages:
+  - name: ConfigCat.Client
+    official: true
+  tags:
+  - feature flag
+  - configuration
+  description: Feature flag & config service. Fixed prices. Unlimited Team Members.
+    10 minutes trainable. Clear docs. Awesome tech support. True Free plan.
+  links:
+  - url: https://configcat.com/docs/sdk-reference/csharp/
+    title: ".NET (C#) - ConfigCat Docs"
+  logo_url: https://configcat.com/images/shared/home.png

@@ -1,0 +1,16 @@
+- service: Microsoft Azure Blob Storage
+  homepage_url: https://azure.microsoft.com/en-us/services/storage/blobs/
+  packages:
+  - name: Microsoft.Azure.Storage.Blob
+    official: true
+  - name: Azure.Storage.Blobs
+    official: true
+  tags:
+  - microsoft azure
+  - azure
+  - blob
+  - storage
+  description: Azure Blob storage provides scalable, cost-efficient object storage
+    in the cloud. Store and access unstructured data for your most demanding workloads.
+  links: ~
+  logo_url: https://azurecomcdn.azureedge.net/cvt-72da57fecd66217469615fadb08e6c7b0d54dc23f3cf0546feb5c35814f3fc96/images/shared/social/azure-icon-250x250.png

@@ -1,0 +1,15 @@
+- service: Couchbase
+  homepage_url: https://www.couchbase.com/
+  packages:
+  - name: CouchbaseNetClient
+    official: true
+  tags:
+  - nosql
+  - database
+  description: "Couchbase is the NoSQL cloud database for business-critical applications.\
+    \ Develop with agility. Perform at any scale. Manage with ease. \u2713 Learn more."
+  links:
+  - url: https://docs.couchbase.com/dotnet-sdk/3.0/hello-world/start-using-sdk.html
+    title: Install and Start Using the .NET SDK with Couchbase Server | Couchbase
+      Docs
+  logo_url: https://www.couchbase.com/webfiles/1589463545929/images/icons/favicon/apple-icon-57x57.png

@@ -1,0 +1,18 @@
+- service: AWS CloudHSM
+  homepage_url: https://aws.amazon.com/cloudhsm/
+  packages:
+  - name: AWSSDK.CloudHSM
+    official: true
+  tags:
+  - amazon
+  - aws
+  - cloudfront
+  - cdn
+  description: AWS CloudHSM is a cloud-based hardware security module (HSM) that enables
+    you to easily generate and use your own encryption keys on the AWS Cloud. With
+    CloudHSM, you can manage your own encryption keys using FIPS 140-2 Level 3 validated
+    HSMs. CloudHSM offers you the flexibility to integrate with your applications
+    using industry-standard APIs, such as PKCS#11, Java Cryptography Extensions (JCE),
+    and Microsoft CryptoNG (CNG) libraries.
+  links: ~
+  logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png

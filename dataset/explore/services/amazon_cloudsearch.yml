@@ -1,0 +1,15 @@
+- service: AWS CloudSearch
+  homepage_url: https://aws.amazon.com/cloudsearch/
+  packages:
+  - name: AWSSDK.CloudSearch
+    official: true
+  tags:
+  - amazon
+  - aws
+  - search
+  - cloudsearch
+  description: Quickly add rich, scalable search capabilities to your website or application
+    with support for 34 languages and search features like highlighting, autocomplete,
+    and geospatial search.
+  links: ~
+  logo_url: https://a0.awsstatic.com/main/images/logos/aws_logo_smile_1200x630.png
