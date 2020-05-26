@@ -1,0 +1,14 @@
+- service: GitHub
+  homepage_url: https://github.com
+  packages:
+  - name: Octokit
+  - name: Octokit.GraphQL
+  tags:
+  - github
+  - git
+  description: GitHub is where people build software. More than 50 million people
+    use GitHub to discover, fork, and contribute to over 100 million projects.
+  links:
+  - url: https://developer.github.com
+    title: GitHub Developer | GitHub Developer Guide
+  logo_url: https://github.githubassets.com/images/modules/open_graph/github-logo.png

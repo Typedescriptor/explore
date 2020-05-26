@@ -1,0 +1,13 @@
+- service: PagerDuty
+  homepage_url: https://pagerduty.com
+  packages:
+  - name: PagerDuty.NET
+  - name: PagerDutyClient
+  tags:
+  - monitoring
+  - alerting
+  description: See how PagerDuty's Platform for Real-Time Operations integrates machine
+    data & human intelligence to improve visibility & agility across organizations.
+    Sign up for a free 14 day trial!
+  links: ~
+  logo_url: https://www.pagerduty.com/wp-content/uploads/2019/09/Brand_Launch_Blog_Social_share_image.png

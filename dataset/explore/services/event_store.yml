@@ -1,0 +1,13 @@
+- service: Event Store
+  homepage_url: https://eventstore.com
+  packages:
+  - name: EventStore.Client
+  tags:
+  - database
+  - event sourcing
+  description: Event Store is an industrial-strength database technology built from
+    the ground up for event sourcing. Support, training and consulting available.
+  links:
+  - url: https://eventstore.com/docs/dotnet-api/index.html
+    title: Overview | Event Store
+  logo_url: https://eventstore.com/images/eventstore-og-grey.png

@@ -1,0 +1,12 @@
+- service: Fluentd
+  homepage_url: https://www.fluentd.org
+  packages:
+  - name: FluentdClient.Sharp
+  tags:
+  - logging
+  - data collector
+  description: Fluentd allows you to unify data collection and consumption for a better use and understanding of data.
+  links:
+  - url: https://docs.fluentd.org/installation
+    title: Installation - Fluentd
+  logo_url: https://www.fluentd.org/favicon.ico
