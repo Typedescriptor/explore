@@ -55,8 +55,12 @@ def _files(count: int) -> str:
 
 
 def _enrich(file: str, in_place: bool):
-    with open(file, "r") as f:
-        y = yaml.load(f, Loader=yaml.FullLoader)
+    try:
+        with open(file, "r") as f:
+            y = yaml.load(f, Loader=yaml.FullLoader)
+    except UnicodeDecodeError as e:
+        sys.stderr.write(f"warning: utf-8 encoding problem {file}\n")
+        return False
 
     changed = False
     for item in y:
