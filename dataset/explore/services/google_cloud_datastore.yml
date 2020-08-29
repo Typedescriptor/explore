@@ -1,0 +1,17 @@
+- service: Google Cloud Datastore
+  homepage_url: https://cloud.google.com/datastore
+  packages:
+  - name: Google.Cloud.Datastore.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - database
+  - nosql
+  description: Cloud Datastore is a highly scalable NoSQL database for your web and
+    mobile applications.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

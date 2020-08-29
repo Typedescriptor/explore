@@ -1,0 +1,20 @@
+- service: Google Cloud BigQuery
+  homepage_url: https://cloud.google.com/bigquery
+  packages:
+  - name: Google.Cloud.BigQuery.DataTransfer.V1
+    official: true
+  - name: Google.Cloud.BigQuery.V2
+    official: true
+  - name: Google.Cloud.BigQuery.Storage.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - database
+  description: BigQuery is a serverless, highly scalable, and cost-effective data
+    warehouse designed to help you turn big data into informed business decisions.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

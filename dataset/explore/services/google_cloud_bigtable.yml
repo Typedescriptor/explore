@@ -1,0 +1,23 @@
+- service: Google Cloud Bigtable
+  homepage_url: https://cloud.google.com/bigtable
+  packages:
+  - name: Google.Cloud.Bigtable.Admin.V2
+    official: true
+  - name: Google.Cloud.Bigtable.Common.V2
+    official: true
+  - name: Google.Cloud.Bigtable.V2
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - nosql
+  - database
+  description: Cloud Bigtable is a high performance NoSQL database service for large
+    analytical and operational workloads.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud
+  - url: https://cloud.google.com/bigtable/docs
+    title: Cloud Bigtable documentation | Cloud Bigtable Documentation
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

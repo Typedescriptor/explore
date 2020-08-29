@@ -1,0 +1,16 @@
+- service: Google Cloud Dataflow
+  homepage_url: https://cloud.google.com/dataflow
+  packages:
+  - name: Google.Apis.Dataflow.v1b3
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - batch
+  description: Dataflow is a fully managed streaming analytics service that minimizes
+    latency, processing time, and cost through autoscaling and batch processing.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png
