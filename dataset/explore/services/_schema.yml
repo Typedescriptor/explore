@@ -1,0 +1,26 @@
+- _type: Schema
+  name: Explore Services
+  entities:
+  - name: Service
+    constructor:
+      implicit: true
+      attributes:
+      - service
+    default_sort:
+      - service
+    attributes:
+    - name: service
+    - name: homepage_url
+    - name: packages
+      type: JSON
+    - name: tags
+      type: JSON
+    - name: description
+    - name: links
+      type: JSON
+    - name: logo_url
+  - name: ServicePackage
+    attributes:
+    - name: name
+    - name: official
+      type: Boolean
