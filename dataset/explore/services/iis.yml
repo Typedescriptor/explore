@@ -1,0 +1,11 @@
+- service: Internet Information Services
+  homepage_url: https://iis.net
+  packages:
+  - name: Microsoft.Web.Administration
+  tags:
+  - microsoft
+  - iis
+  description: Learn, download, & discuss IIS7 and more on the official Microsoft
+    IIS site for the IIS.NET development community.
+  links: ~
+  logo_url: https://docs.microsoft.com/en-us/media/logos/logo-ms-social.png

@@ -1,0 +1,14 @@
+- service: Google Cloud Memorystore
+  homepage_url: https://cloud.google.com/memorystore/docs/redis
+  packages:
+  - name: Google.Cloud.Redis.V1
+  - name: Google.Cloud.Redis.V1Beta1
+  tags:
+  - google
+  - redis
+  - memorystore
+  description: Offers a managed Redis service to users.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

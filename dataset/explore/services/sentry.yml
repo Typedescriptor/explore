@@ -1,0 +1,14 @@
+- service: Sentry
+  homepage_url: https://sentry.io
+  packages:
+  - name: Sentry
+  - name: Sentry.AspNetCore
+    integration: true
+  tags:
+  - sentry
+  description: Self-hosted and cloud-based error monitoring that helps software teams
+    discover, triage, and prioritize errors in real-time.
+  links:
+  - url: https://docs.sentry.io/error-reporting/quickstart/
+    title: Getting Started | Sentry Documentation
+  logo_url: https://www.sentry.dev/_assets2/static/index-1e7a4349067ba590c6841d7a2ada0013.jpg

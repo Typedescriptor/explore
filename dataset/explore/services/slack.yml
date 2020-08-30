@@ -1,0 +1,13 @@
+- service: Slack
+  homepage_url: https://slack.com
+  packages:
+  - name: SlackAPI
+  - name: SlackSharp
+  tags:
+  - slack
+  description: Slack is where work flows. It's where the people you need, the information
+    you share, and the tools you use come together to get things done.
+  links:
+  - url: https://api.slack.com
+    title: Slack API | Slack
+  logo_url: https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png

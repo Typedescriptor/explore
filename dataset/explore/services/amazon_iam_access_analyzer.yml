@@ -1,0 +1,15 @@
+- service: AWS IAM Access Analyzer
+  homepage_url: https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html
+  packages:
+  - name: AWSSDK.AccessAnalyzer
+  tags:
+  - amazon
+  - aws
+  - iam
+  - security
+  description: Learn about how AWS IAM Access Analyzer analyzes resource-based policies
+    to identify unintended access.
+  links:
+  - url: https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html
+    title: What Is AWS IAM Access Analyzer? - AWS Identity and Access Management
+  logo_url: https://docs.aws.amazon.com/assets/images/favicon.ico

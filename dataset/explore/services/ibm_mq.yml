@@ -1,0 +1,14 @@
+- service: IBM MQ
+  homepage_url: https://www.ibm.com/cloud/mq
+  packages:
+  - name: IBMMQDotnetClient
+    official: true
+  tags:
+  - ibm
+  - mq
+  description: Easily move data between enterprise applications, systems and services
+    with IBM MQ on Cloud
+  links:
+  - url: https://www.ibm.com/support/knowledgecenter/SSFKSJ_9.2.0/com.ibm.mq.dev.doc/q132490_.htm
+    title: IBM Knowledge Center
+  logo_url: https://1.cms.s81c.com/sites/default/files/2019-07-18/ibm-mq-on-cloud-leadspace1_0.jpg

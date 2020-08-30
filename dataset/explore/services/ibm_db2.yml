@@ -1,0 +1,13 @@
+- service: IBM Db2
+  homepage_url: https://www.ibm.com/analytics/db2
+  packages:
+  - name: EntityFramework.IBM.DB2
+    integration: true
+  - name: IBM.Data.DB2.Core
+  tags:
+  - ibm
+  - db2
+  description: Db2 is a family of data management products that helps you more effectively
+    manage structured and unstructured data in on-premises and cloud environments.
+  links: ~
+  logo_url: https://1.www.s81c.com/common/images/ibm-leadspace-1200x627.jpg

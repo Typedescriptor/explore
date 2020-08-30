@@ -1,0 +1,14 @@
+- service: Google Cloud Talent Solution
+  homepage_url: https://cloud.google.com/solutions/talent-solution
+  packages:
+  - name: Google.Cloud.Talent.V4Beta1
+  tags:
+  - google
+  - talent
+  - hr
+  description: APIs for talent technology providers and enterprises that use AI to
+    power job search.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png
