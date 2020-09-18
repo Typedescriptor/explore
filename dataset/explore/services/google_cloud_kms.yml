@@ -1,0 +1,19 @@
+- service: Google Cloud KMS
+  homepage_url: https://cloud.google.com/kms
+  packages:
+  - name: Google.Cloud.Kms.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - kms
+  - data protection
+  description: Encryption key management enables data protection for security and
+    privacy. Key management systems and services are critical for data security.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  - url: https://cloud.google.com/kms/docs
+    title: Cloud Key Management Service documentation | Cloud KMS Documentation
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

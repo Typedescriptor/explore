@@ -1,0 +1,15 @@
+- service: Google Cloud Debugger
+  homepage_url: https://cloud.google.com/debugger
+  packages:
+  - name: Google.Cloud.Debugger.V2
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  description: Inspect the state of an application in real time without stopping or
+    slowing it down.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

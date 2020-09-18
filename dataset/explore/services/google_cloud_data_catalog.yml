@@ -1,0 +1,15 @@
+- service: Google Cloud Data Catalog
+  homepage_url: https://cloud.google.com/data-catalog
+  packages:
+  - name: Google.Cloud.DataCatalog.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  description: Fully managed and scalable metadata management product that empowers
+    organizations to quickly discover, understand, and manage all their data assets.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

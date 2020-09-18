@@ -1,0 +1,18 @@
+- service: Google Cloud Asset Inventory
+  homepage_url: https://cloud.google.com/asset-inventory
+  packages:
+  - name: Google.Cloud.Asset.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - anthos
+  description: A metadata inventory service that allows you to view, monitor, and
+    analyze all your GCP and Anthos assets across projects and services.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  - url: https://cloud.google.com/asset-inventory/docs/overview
+    title: Introduction to Cloud Asset Inventory
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

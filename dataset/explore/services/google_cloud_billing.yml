@@ -1,0 +1,15 @@
+- service: Google Cloud Billing
+  homepage_url: https://cloud.google.com/billing/docs
+  packages:
+  - name: Google.Cloud.Billing.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - billing
+  description: Manage billing for your projects on Google Cloud and Google Maps Platform.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

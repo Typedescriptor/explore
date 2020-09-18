@@ -1,0 +1,17 @@
+- service: Google Cloud IAM
+  homepage_url: https://cloud.google.com/iam
+  packages:
+  - name: Google.Cloud.Iam.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - iam
+  - identity
+  description: Cloud Identity &amp; Access Management (Cloud IAM) gives admins fine-grained
+    access control &amp; visibility for centrally managing enterprise cloud resources
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

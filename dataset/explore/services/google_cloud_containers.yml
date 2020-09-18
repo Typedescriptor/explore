@@ -1,0 +1,17 @@
+- service: Google Cloud Containers
+  homepage_url: https://cloud.google.com/containers
+  packages:
+  - name: Google.Cloud.Container.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - containers
+  description: "From Gmail to YouTube, everything at Google runs in containers. We\u2019\
+    ve packaged this expertise to offer you the latest in containers innovation on\
+    \ Google Cloud Platform."
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

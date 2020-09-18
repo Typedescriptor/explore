@@ -1,0 +1,17 @@
+- service: Google Data Loss Prevention API
+  homepage_url: https://cloud.google.com/dlp
+  packages:
+  - name: Google.Cloud.Dlp.V2
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  description: Cloud DLP enables enterprises to automatically discover, classify,
+    and protect their most sensitive data elements.
+  links:
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  - url: https://cloud.google.com/dlp/docs
+    title: Cloud Data Loss Prevention (DLP) documentation
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png
