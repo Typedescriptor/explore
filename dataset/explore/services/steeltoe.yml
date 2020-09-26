@@ -1,0 +1,12 @@
+- service: Steeltoe
+  homepage_url: https://steeltoe.io/
+  packages:
+  - name: Steeltoe.Common
+    official: true
+  tags:
+  - vmware
+  - steeltoe
+  description: Create .NET microservices for modern platforms with Steeltoe. It's
+    a friend of Spring Cloud and can be used anywhere.
+  links: ~
+  logo_url: https://steeltoe.io/images/favicon.png

@@ -1,0 +1,12 @@
+- service: Apache HBase
+  homepage_url: https://hbase.apache.org/
+  packages:
+  - name: Microsoft.HBase.Client
+  tags:
+  - apache
+  - hbase
+  - nosql
+  - hadoop
+  description: Apache HBase™ is the Hadoop database, a distributed, scalable, big data store.
+  links: ~
+  logo_url: https://hbase.apache.org/images/favicon.ico

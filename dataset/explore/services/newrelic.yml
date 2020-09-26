@@ -1,0 +1,12 @@
+- service: NewRelic
+  homepage_url: https://newrelic.com
+  packages:
+  - name: NewRelic.Agent.Api
+  - name: NewRelic.Azure.WebSites
+    integration: true
+  - name: NewRelic.Agent
+  tags:
+  - newrelic
+  description: Work smarter and solve problems faster with a unified view of your
+    software and systems.
+  logo_url: https://newrelic.com/content/dam/new-relic/opengraph/NROG_Image.png

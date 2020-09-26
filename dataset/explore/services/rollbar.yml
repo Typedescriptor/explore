@@ -1,0 +1,14 @@
+- service: Rollbar
+  homepage_url: https://rollbar.com/
+  packages:
+  - name: Rollbar
+    official: true
+  tags:
+  - rollbar
+  - debugging
+  description: Rollbar provides real-time error tracking & debugging tools for developers.
+    JavaScript, PHP, Ruby, Python, Node.js, Android, iOS, Apex & more languages supported.
+  links:
+  - url: https://rollbar.com/error-tracking/dotnet/
+    title: .NET Error Logging | Rollbar | Lightweight, Easy to Install
+  logo_url: https://images.ctfassets.net/cj4mgtttlyx7/4DfiWj9CbuHBi10uWK7JHn/5e94a6c5dbd5d50bdcd8d9e78f88689b/rollbar-seo.png

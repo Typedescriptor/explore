@@ -1,0 +1,18 @@
+- service: Google Cloud Container Analysis
+  homepage_url: https://cloud.google.com/container-registry/docs/container-analysis
+  packages:
+  - name: Google.Cloud.DevTools.ContainerAnalysis.V1
+    official: true
+  tags:
+  - google
+  - google cloud
+  - gcp
+  - vulnerability analysis
+  - security
+  description: Container Analysis is a service that provides vulnerability scanning and metadata storage for software artifacts. The scanning service performs vulnerability scans on images in Container Registry, then stores the resulting metadata and makes it available for consumption through an API.
+  links:
+  - url: https://cloud.google.com/container-registry/docs/container-analysis
+    title: Container Analysis | Container Registry Documentation | Google Cloud
+  - url: https://cloud.google.com/dotnet/docs
+    title: .NET on Google Cloud | Developer Tools
+  logo_url: https://cloud.google.com/images/social-icon-google-cloud-1200-630.png

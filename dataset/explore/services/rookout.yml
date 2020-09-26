@@ -1,0 +1,15 @@
+- service: Rookout
+  homepage_url: https://www.rookout.com/
+  packages:
+  - name: Rookout
+    official: true
+  tags:
+  - rookout
+  - debugger
+  description: Extract LIVE code data-points with Non-Breaking Breakpoints. Get logs,
+    variables, and metrics from live code without stopping, redeploying, or writing
+    more code.
+  links:
+  - url: https://docs.rookout.com/docs/dotnet-setup/
+    title: ".NET SDK Instrumentation \xB7 Documentation"
+  logo_url: https://assets-global.website-files.com/5d792a228fd93fd1036cdd67/5dd13979c5a7ede4975a7d08_Rookout_logo-copy.jpg
