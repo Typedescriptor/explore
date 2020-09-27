@@ -1,0 +1,25 @@
+- _type: Schema
+  name: Explore Collections
+  entities:
+  - name: Collection
+    constructor:
+      implicit: true
+      attributes:
+      - collection
+    default_sort:
+      - collection
+    attributes:
+    - name: collection
+    - name: project_url
+    - name: icon_url
+    - name: packages
+      type: JSON
+    - name: sponsorships
+      type: JSON
+    - name: repositories
+      type: JSON
+    - name: tags
+      type: JSON
+    - name: description
+    - name: links
+      type: JSON

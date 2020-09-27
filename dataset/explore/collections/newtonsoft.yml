@@ -1,0 +1,10 @@
+- collection: Newtonsoft
+  icon_url: https://raw.githubusercontent.com/JamesNK/Newtonsoft.Json/master/Doc/icons/logo.jpg
+  project_url: https://www.newtonsoft.com/json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  packages:
+  - Newtonsoft.Json
+  - Newtonsoft.Json.Schema
+  repositories:
+  - JamesNK/Newtonsoft.Json
+  - JamesNK/Newtonsoft.Json.Schema

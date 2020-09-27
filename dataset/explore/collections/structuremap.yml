@@ -1,0 +1,10 @@
+- collection: structuremap
+  icon_url: https://avatars1.githubusercontent.com/u/200602?s=200&v=4
+  project_url: https://github.com/structuremap
+  description: A Dependency Injection/Inversion of Control tool for .NET
+  packages:
+  - StructureMap
+  sponsorships:
+  - TInauguralListings
+  repositories:
+  - structuremap/structuremap

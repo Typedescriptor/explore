@@ -1,0 +1,11 @@
+- collection: Markdown
+  icon_url: https://raw.githubusercontent.com/hey-red/Markdown/master/icon.png
+  project_url: https://github.com/hey-red/Markdown
+  description: Open source C# implementation of Markdown processor, as featured on
+    Stack Overflow.
+  packages:
+  - Markdown
+  sponsorships:
+  - TMarkdownResearch
+  repositories:
+  - hey-red/Markdown

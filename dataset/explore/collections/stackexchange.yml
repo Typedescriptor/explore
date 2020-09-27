@@ -1,0 +1,10 @@
+- collection: StackExchange
+  icon_url: https://avatars0.githubusercontent.com/u/1393171?s=200&v=4
+  project_url: https://github.com/StackExchange/MarkdownSharp/
+  description: Stack Exchange is a network of question-and-answer (Q&A) websites
+  packages:
+  - MarkdownSharp
+  sponsorships:
+  - TMarkdownResearch
+  repositories:
+  - StackExchange/MarkdownSharp

@@ -1,0 +1,11 @@
+- collection: GitHub
+  icon_url: https://upload.wikimedia.org/wikipedia/commons/9/95/Font_Awesome_5_brands_github.svg
+  project_url: https://developer.github.com/v3
+  description: GitHub is an American company that provides hosting for software development
+    version control using Git.
+  packages:
+  - Octokit
+  sponsorships:
+  - TServiceWave1
+  repositories:
+  - octokit/octokit.net

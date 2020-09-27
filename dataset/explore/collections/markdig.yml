@@ -1,0 +1,11 @@
+- collection: Markdig
+  icon_url: https://github.com/lunet-io/markdig/raw/master/img/markdig.png
+  project_url: https://github.com/lunet-io/markdig
+  description: A fast, powerful, CommonMark compliant, extensible Markdown processor
+    for .NET
+  packages:
+  - Markdig
+  sponsorships:
+  - TMarkdownResearch
+  repositories:
+  - lunet-io/markdig
