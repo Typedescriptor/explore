@@ -1,0 +1,332 @@
+- listing: AdobeSign
+  sponsor: TServiceGalleryQ32020
+
+- listing: Adyen
+  sponsor: TServiceGalleryQ32020
+
+- listing: Aerospike.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: Algolia.Search
+  sponsor: TServiceGalleryQ32020
+
+- listing: Apache.NMS.ActiveMQ
+  sponsor: TServiceGalleryQ32020
+
+- listing: Auth0.Core
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.AccessAnalyzer
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.ApiGateway
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.AppMesh
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.AppStream
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.AppSync
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.Athena
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.CloudFront
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.CloudHSM
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.CloudSearch
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.CloudTrail
+  sponsor: TServiceGalleryQ32020
+
+- listing: AWSSDK.Pricing
+  sponsor: TServiceGalleryQ32020
+
+- listing: Azure.Storage.Blobs
+  sponsor: TServiceGalleryQ32020
+
+- listing: CassandraCSharpDriver
+  sponsor: TServiceGalleryQ32020
+
+- listing: ClickHouse.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: ClickHouse.Net
+  sponsor: TServiceGalleryQ32020
+
+- listing: CloudFlare.API
+  sponsor: TServiceGalleryQ32020
+
+- listing: CloudFlare.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: ConfigCat.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: Confluent.Kafka
+  sponsor: TServiceGalleryQ32020
+
+- listing: CouchbaseNetClient
+  sponsor: TServiceGalleryQ32020
+
+- listing: CouchDB.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: CouchDB.NET
+  sponsor: TServiceGalleryQ32020
+
+- listing: dotnet-etcd
+  sponsor: TServiceGalleryQ32020
+
+- listing: Druid4net
+  sponsor: TServiceGalleryQ32020
+
+- listing: Elasticsearch.Net
+  sponsor: TServiceGalleryQ32020
+
+- listing: EntityFramework.IBM.DB2
+  sponsor: TServiceGalleryQ32020
+
+- listing: EventStore.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: FluentdClient.Sharp
+  sponsor: TServiceGalleryQ32020
+
+- listing: GitLabApiClient
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Apis.CloudComposer.v1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Apis.CloudFilestore.v1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Apis.Dataflow.v1b3
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Asset.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.AutoML.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.BigQuery.DataTransfer.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.BigQuery.Storage.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.BigQuery.V2
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Bigtable.Admin.V2
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Bigtable.Common.V2
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Bigtable.V2
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Billing.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Container.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.DataCatalog.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Dataproc.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Datastore.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Debugger.V2
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.DevTools.ContainerAnalysis.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Dlp.V2
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Firestore
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Firestore.Admin.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Firestore.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Gaming.V1Beta
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Iam.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Kms.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Redis.V1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Redis.V1Beta1
+  sponsor: TServiceGalleryQ32020
+
+- listing: Google.Cloud.Talent.V4Beta1
+  sponsor: TServiceGalleryQ32020
+
+- listing: HaProxy.Api
+  sponsor: TServiceGalleryQ32020
+
+- listing: HAProxyApi.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: IBM.Data.DB2.Core
+  sponsor: TServiceGalleryQ32020
+
+- listing: IBMMQDotnetClient
+  sponsor: TServiceGalleryQ32020
+
+- listing: MaxMind.Db
+  sponsor: TServiceGalleryQ32020
+
+- listing: MaxMind.MinFraud
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.AppService.ApiApps.Service
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.Batch
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.CognitiveServices.Language.TextAnalytics
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.CognitiveServices.Vision.ComputerVision
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.CognitiveServices.Vision.Face
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.Management.ApiManagement
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.Management.CognitiveServices
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Azure.Storage.Blob
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Exchange.WebService
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.HBase.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Identity.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.IdentityModel.Clients.ActiveDirectory
+  sponsor: TServiceGalleryQ32020
+
+- listing: Microsoft.Web.Administration
+  sponsor: TServiceGalleryQ32020
+
+- listing: NEST
+  sponsor: TServiceGalleryQ32020
+
+- listing: NewRelic.Agent
+  sponsor: TServiceGalleryQ32020
+
+- listing: NewRelic.Agent.Api
+  sponsor: TServiceGalleryQ32020
+
+- listing: NewRelic.Azure.WebSites
+  sponsor: TServiceGalleryQ32020
+
+- listing: Npgsql
+  sponsor: TServiceGalleryQ32020
+
+- listing: Octokit
+  sponsor: TServiceGalleryQ32020
+
+- listing: Octokit.GraphQL
+  sponsor: TServiceGalleryQ32020
+
+- listing: PagerDuty.NET
+  sponsor: TServiceGalleryQ32020
+
+- listing: PagerDutyClient
+  sponsor: TServiceGalleryQ32020
+
+- listing: RavenDB.Embedded
+  sponsor: TServiceGalleryQ32020
+
+- listing: RiakClient
+  sponsor: TServiceGalleryQ32020
+
+- listing: Rollbar
+  sponsor: TServiceGalleryQ32020
+
+- listing: Rookout
+  sponsor: TServiceGalleryQ32020
+
+- listing: Rundeck.Api
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sentry
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sentry.AspNetCore
+  sponsor: TServiceGalleryQ32020
+
+- listing: ServiceNow.Api
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.Client
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.Extensions.Logging
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.Http.Middleware
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.Http.Module
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.Log4net
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.Log4net.Web
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.NLog
+  sponsor: TServiceGalleryQ32020
+
+- listing: Sharpbrake.NLog.Web
+  sponsor: TServiceGalleryQ32020
+
+- listing: SlackAPI
+  sponsor: TServiceGalleryQ32020
+
+- listing: SlackSharp
+  sponsor: TServiceGalleryQ32020
+
+- listing: Steeltoe.Common
+  sponsor: TServiceGalleryQ32020
+
+- listing: System.DirectoryServices
+  sponsor: TServiceGalleryQ32020
