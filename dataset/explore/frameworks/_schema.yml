@@ -1,0 +1,14 @@
+- _type: Schema
+  name: Explore Frameworks
+  entities:
+  - name: Framework
+    constructor:
+      implicit: true
+      attributes:
+      - framework
+    default_sort:
+      - framework
+    attributes:
+    - name: framework
+    - name: sdk_version
+    - name: version
