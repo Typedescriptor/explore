@@ -7,5 +7,7 @@
   - geoip
   description: MaxMind is a leading provider of IP intelligence and online fraud prevention
     tools. Learn about GeoIP databases and services and minFraud services.
-  links: ~
+  links:
+  - url: https://twitter.com/maxmind
+    title: Twitter
   logo_url: https://static.maxmind.com/963fee16f9b4d9e24de7/images/maxmind-header-logo.svg

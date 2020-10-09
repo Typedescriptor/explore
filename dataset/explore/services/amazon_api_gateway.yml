@@ -11,4 +11,6 @@
   - api gateway
   description: Build HTTP, REST, and WebSocket APIs with a fully managed service that
     makes it easy to create, publish, maintain, monitor, and secure APIs.
-  links: ~
+  links:
+  - url: https://twitter.com/awscloud
+    title: Twitter

@@ -5,6 +5,9 @@
   tags:
   - riak
   - nosql
-  description: At Riak, we are distributed systems experts and we work with Application teams to overcome these distributed system challenges.
-  links: ~
+  description: At Riak, we are distributed systems experts and we work with Application
+    teams to overcome these distributed system challenges.
+  links:
+  - url: https://github.com/basho-labs/riak_explorer
+    title: GitHub
   logo_url: https://riak.com/content/uploads/2015/04/riak-ts-demo-video-thumb-home.jpg

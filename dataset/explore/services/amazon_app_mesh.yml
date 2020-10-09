@@ -10,4 +10,6 @@
   - appmesh
   description: AWS App Mesh is a service mesh that allows you to easily monitor and
     control communications across services.
-  links: ~
+  links:
+  - url: https://twitter.com/awscloud
+    title: Twitter

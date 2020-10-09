@@ -3,7 +3,7 @@
   packages:
   - name: ServiceNow.Api
   tags:
-  - slack
+  - servicenow
   description: ServiceNow allows employees to work the way they want to, not how software
     dictates they have to. And customers can get what they need, when they need it.
   links:

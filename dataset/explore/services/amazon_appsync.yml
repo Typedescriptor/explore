@@ -12,4 +12,6 @@
     in real time, and updates data for offline users as soon as they reconnect. AppSync
     makes it easy to build collaborative mobile and web applications that deliver
     responsive, collaborative user experiences.
-  links: ~
+  links:
+  - url: https://twitter.com/awscloud
+    title: Twitter

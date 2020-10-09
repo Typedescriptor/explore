@@ -12,4 +12,6 @@
     Centrally manage your desktop applications on AppStream 2.0 and securely deliver
     them to any computer. You can easily scale to any number of users across the globe
     without acquiring, provisioning, and operating hardware or infrastructure.
-  links: ~
+  links:
+  - url: https://twitter.com/awscloud
+    title: Twitter

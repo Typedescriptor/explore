@@ -10,5 +10,9 @@
   links:
   - url: https://auth0.com/docs/quickstart/backend/aspnet-core-webapi
     title: 'Auth0 ASP.NET Core Web API v2.0 SDK Quickstarts: Authorization'
+  - url: https://twitter.com/auth0
+    title: Twitter
+  - url: https://github.com/auth0
+    title: GitHub
   description: Rapidly integrate authentication and authorization for web, mobile,
     and legacy applications so you can focus on your core business.

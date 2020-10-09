@@ -8,9 +8,11 @@
   - apache couchdb
   - nosql
   - database
-  description: Apache CouchDB lets you access your data where you need it. The
-    Couch Replication Protocol is implemented in a variety of projects and products
-    that span every imaginable computing environment from globally distributed server-clusters,
+  description: Apache CouchDB lets you access your data where you need it. The Couch
+    Replication Protocol is implemented in a variety of projects and products that
+    span every imaginable computing environment from globally distributed server-clusters,
     over mobile phones to web browsers.
-  links: ~
+  links:
+  - url: https://twitter.com/CouchDB
+    title: Twitter
   logo_url: https://couchdb.apache.org/apple-touch-icon.png?v=rM3dEe7aPK

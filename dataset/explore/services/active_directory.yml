@@ -11,4 +11,6 @@
   - ldap
   description: Azure Active Directory provides an identity platform with enhanced
     security, access management, scalability, and reliability.
-  links: ~
+  links:
+  - url: https://twitter.com/azure
+    title: Twitter

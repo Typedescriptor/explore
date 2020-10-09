@@ -14,5 +14,7 @@
     HSMs. CloudHSM offers you the flexibility to integrate with your applications
     using industry-standard APIs, such as PKCS#11, Java Cryptography Extensions (JCE),
     and Microsoft CryptoNG (CNG) libraries.
-  links: ~
+  links:
+  - url: https://twitter.com/awscloud
+    title: Twitter
   logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png

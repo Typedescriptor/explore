@@ -6,6 +6,10 @@
   tags:
   - maxmind
   - fraud score
-  description: The minFraud service provides real-time risk scoring, contextual and reputational data, and post-event monitoring to inform fraud analysis, support automated workflows, and power risk modeling.
-  links: ~
+  description: The minFraud service provides real-time risk scoring, contextual and
+    reputational data, and post-event monitoring to inform fraud analysis, support
+    automated workflows, and power risk modeling.
+  links:
+  - url: https://twitter.com/maxmind
+    title: Twitter
   logo_url: https://mm-staticassets.storage.googleapis.com/963fee16f9b4d9e24de7/js/marketing/static/minfraud/logo.svg

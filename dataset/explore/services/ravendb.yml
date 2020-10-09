@@ -8,5 +8,7 @@
   - document database
   description: A NoSQL Database that's fully transactional - RavenDB NoSQL Document
     Database allows 1 million reads and 150,000 writes per second.
-  links: ~
+  links:
+  - url: https://twitter.com/ravendb
+    title: Twitter
   logo_url: https://ravendb.net/img/metadata.png

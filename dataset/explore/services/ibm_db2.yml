@@ -9,5 +9,7 @@
   - db2
   description: Db2 is a family of data management products that helps you more effectively
     manage structured and unstructured data in on-premises and cloud environments.
-  links: ~
+  links:
+  - url: https://twitter.com/IBMData
+    title: Twitter
   logo_url: https://1.www.s81c.com/common/images/ibm-leadspace-1200x627.jpg

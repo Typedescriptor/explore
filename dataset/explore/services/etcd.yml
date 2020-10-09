@@ -9,5 +9,7 @@
   - database
   description: A distributed, reliable key-value store for the most critical data
     of a distributed system
-  links: ~
+  links:
+  - url: https://github.com/etcd-io/etcd
+    title: GitHub
   logo_url: https://raw.githubusercontent.com/cncf/artwork/master/projects/etcd/horizontal/color/etcd-horizontal-color.png

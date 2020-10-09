@@ -14,5 +14,7 @@
     perfect platform for mission-critical data. Cassandra's support for replicating
     across multiple datacenters is best-in-class, providing lower latency for your
     users and the peace of mind of knowing that you can survive regional outages.
-  links: ~
+  links:
+  - url: https://twitter.com/cassandra
+    title: Twitter
   logo_url: https://cassandra.apache.org/img/cassandra_logo.png

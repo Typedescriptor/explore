@@ -16,5 +16,7 @@
     resource change tracking, and troubleshooting. In addition, you can use CloudTrail
     to detect unusual activity in your AWS accounts. These capabilities help simplify
     operational analysis and troubleshooting.
-  links: ~
+  links:
+  - url: https://twitter.com/awscloud
+    title: Twitter
   logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
