@@ -91,9 +91,6 @@
 - listing: Elasticsearch.Net
   sponsor: TServiceGalleryQ32020
 
-- listing: EntityFramework.IBM.DB2
-  sponsor: TServiceGalleryQ32020
-
 - listing: EventStore.Client
   sponsor: TServiceGalleryQ32020
 
