@@ -6,8 +6,12 @@
   tags:
   - rundeck
   - incident management
-  description: Rundeck is runbook automation for incident management, business continuity, and self-service operations. Shorter incidents. Fewer interruptions. Get more done.
+  description: Rundeck is runbook automation for incident management, business continuity,
+    and self-service operations. Shorter incidents. Fewer interruptions. Get more
+    done.
   links:
   - url: https://docs.rundeck.com/docs/api/rundeck-api.html
     title: API Reference | Rundeck Docs
+  - url: https://twitter.com/rundeck
+    title: Twitter
   logo_url: https://www.rundeck.com/hubfs/identity/favicons/Rundeck-favicon.png

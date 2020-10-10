@@ -24,5 +24,7 @@
   links:
   - url: https://airbrake.io/docs/installing-airbrake/installing-airbrake-in-a-net-application/
     title: .NET - Airbrake
+  - url: https://twitter.com/airbrake
+    title: Twitter
   description: "Application monitoring software for your entire stack. Fix errors\
     \ in minutes. Airbrake tells you in real-time what\u2019s broken, where and why."

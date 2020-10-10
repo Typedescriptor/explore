@@ -10,5 +10,9 @@
     10 minutes trainable. Clear docs. Awesome tech support. True Free plan.
   links:
   - url: https://configcat.com/docs/sdk-reference/csharp/
-    title: ".NET (C#) - ConfigCat Docs"
+    title: .NET (C#) - ConfigCat Docs
+  - url: https://twitter.com/configcat
+    title: Twitter
+  - url: https://github.com/configcat
+    title: GitHub
   logo_url: https://configcat.com/images/shared/home.png

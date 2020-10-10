@@ -11,4 +11,8 @@
   links:
   - url: https://rollbar.com/error-tracking/dotnet/
     title: .NET Error Logging | Rollbar | Lightweight, Easy to Install
+  - url: https://twitter.com/rollbar
+    title: Twitter
+  - url: https://github.com/rollbar
+    title: GitHub
   logo_url: https://images.ctfassets.net/cj4mgtttlyx7/4DfiWj9CbuHBi10uWK7JHn/5e94a6c5dbd5d50bdcd8d9e78f88689b/rollbar-seo.png

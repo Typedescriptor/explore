@@ -11,4 +11,6 @@
   links:
   - url: https://twitter.com/druidio
     title: Twitter
+  - url: https://github.com/apache/druid/
+    title: GitHub
   logo_url: https://druid.apache.org/img/favicon.png

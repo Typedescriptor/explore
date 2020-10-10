@@ -10,4 +10,6 @@
   description: Work smarter and solve problems faster with a unified view of your
     software and systems.
   logo_url: https://newrelic.com/content/dam/new-relic/opengraph/NROG_Image.png
-  links: ~
+  links:
+  - url: https://github.com/newrelic
+    title: GitHub

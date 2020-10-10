@@ -11,4 +11,8 @@
   links:
   - url: https://docs.sentry.io/error-reporting/quickstart/
     title: Getting Started | Sentry Documentation
+  - url: https://twitter.com/getsentry/
+    title: Twitter
+  - url: https://github.com/getsentry/
+    title: GitHub
   logo_url: https://www.sentry.dev/_assets2/static/index-1e7a4349067ba590c6841d7a2ada0013.jpg

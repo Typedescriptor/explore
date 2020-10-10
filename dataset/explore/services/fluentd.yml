@@ -5,8 +5,13 @@
   tags:
   - logging
   - data collector
-  description: Fluentd allows you to unify data collection and consumption for a better use and understanding of data.
+  description: Fluentd allows you to unify data collection and consumption for a better
+    use and understanding of data.
   links:
   - url: https://docs.fluentd.org/installation
     title: Installation - Fluentd
+  - url: https://twitter.com/fluentd
+    title: Twitter
+  - url: https://github.com/fluent/fluentd
+    title: GitHub
   logo_url: https://www.fluentd.org/favicon.ico

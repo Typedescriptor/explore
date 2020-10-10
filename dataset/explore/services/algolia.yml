@@ -9,5 +9,9 @@
   links:
   - url: https://www.algolia.com/doc/api-client/getting-started/install/csharp/?language=csharp
     title: Install the .NET API Client | API Reference | Algolia Documentation
+  - url: https://twitter.com/algolia
+    title: Twitter
+  - url: https://github.com/algolia
+    title: GitHub
   description: Algolia helps businesses across industries quickly create relevant,
     scalable, and lightning fast Search and Discovery experiences.

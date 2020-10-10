@@ -11,4 +11,6 @@
   - url: http://www.haproxy.com/
     title: "HAProxy Technologies | The World\xE2\x80\x99s Fastest and Most Widely\
       \ Used Software Load Balancer"
+  - url: https://github.com/haproxy/haproxy
+    title: GitHub
   logo_url: http://www.haproxy.org/

@@ -13,3 +13,7 @@
   links:
   - url: https://clickhouse.tech/docs/en/
     title: Overview - ClickHouse Documentation
+  - url: https://twitter.com/ClickHouseDB
+    title: Twitter
+  - url: https://github.com/ClickHouse/ClickHouse
+    title: GitHub

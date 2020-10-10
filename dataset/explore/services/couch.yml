@@ -15,4 +15,6 @@
   links:
   - url: https://twitter.com/CouchDB
     title: Twitter
+  - url: https://github.com/apache?q=couchdb
+    title: GitHub
   logo_url: https://couchdb.apache.org/apple-touch-icon.png?v=rM3dEe7aPK

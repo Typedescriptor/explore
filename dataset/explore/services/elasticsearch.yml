@@ -14,4 +14,6 @@
       .NET clients [7.x] | Elastic'
   - url: https://www.elastic.co/guide/en/elasticsearch/client/index.html
     title: Elasticsearch Clients | Elastic
+  - url: https://github.com/elastic/elasticsearch-net
+    title: GitHub
   logo_url: https://www.elastic.co/static/images/elastic-logo-200.png

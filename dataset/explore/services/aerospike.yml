@@ -12,4 +12,8 @@
     title: Documentation | Aerospike
   - url: https://www.aerospike.com/docs/client/csharp/install/install_core.html
     title: Documentation | Aerospike
+  - url: https://twitter.com/aerospikedb
+    title: Twitter
+  - url: https://github.com/aerospike
+    title: GitHub
   description: High performance enterprise grade NoSQL database with strong consistency.
