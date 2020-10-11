@@ -6,12 +6,18 @@
 
 - listing: Aerospike.Client
   sponsor: TServiceGalleryQ32020
+  repo: aerospike/aerospike-client-csharp
 
 - listing: Algolia.Search
   sponsor: TServiceGalleryQ32020
 
+- listing: Apache.NMS
+  sponsor: TServiceGalleryQ32020
+  repo: apache/activemq-nms-api
+
 - listing: Apache.NMS.ActiveMQ
   sponsor: TServiceGalleryQ32020
+  repo: apache/activemq-nms-openwire
 
 - listing: Auth0.Core
   sponsor: TServiceGalleryQ32020
@@ -51,6 +57,7 @@
 
 - listing: Azure.Storage.Blobs
   sponsor: TServiceGalleryQ32020
+  repo: Azure/azure-sdk-for-net
 
 - listing: CassandraCSharpDriver
   sponsor: TServiceGalleryQ32020
@@ -59,9 +66,6 @@
   sponsor: TServiceGalleryQ32020
 
 - listing: ClickHouse.Net
-  sponsor: TServiceGalleryQ32020
-
-- listing: CloudFlare.API
   sponsor: TServiceGalleryQ32020
 
 - listing: CloudFlare.Client
@@ -93,6 +97,7 @@
 
 - listing: EventStore.Client
   sponsor: TServiceGalleryQ32020
+  repo: EventStore/EventStore
 
 - listing: FluentdClient.Sharp
   sponsor: TServiceGalleryQ32020
@@ -202,11 +207,9 @@
 - listing: MaxMind.MinFraud
   sponsor: TServiceGalleryQ32020
 
-- listing: Microsoft.Azure.AppService.ApiApps.Service
-  sponsor: TServiceGalleryQ32020
-
 - listing: Microsoft.Azure.Batch
   sponsor: TServiceGalleryQ32020
+  repo: Azure/azure-sdk-for-net
 
 - listing: Microsoft.Azure.CognitiveServices.Language.TextAnalytics
   sponsor: TServiceGalleryQ32020
@@ -225,6 +228,7 @@
 
 - listing: Microsoft.Azure.Storage.Blob
   sponsor: TServiceGalleryQ32020
+  repo: Azure/azure-sdk-for-net
 
 - listing: Microsoft.Exchange.WebService
   sponsor: TServiceGalleryQ32020
@@ -235,23 +239,16 @@
 - listing: Microsoft.Identity.Client
   sponsor: TServiceGalleryQ32020
 
-- listing: Microsoft.IdentityModel.Clients.ActiveDirectory
-  sponsor: TServiceGalleryQ32020
-
-- listing: Microsoft.Web.Administration
-  sponsor: TServiceGalleryQ32020
-
 - listing: NEST
   sponsor: TServiceGalleryQ32020
 
 - listing: NewRelic.Agent
   sponsor: TServiceGalleryQ32020
+  repo: newrelic/newrelic-dotnet-agent
 
 - listing: NewRelic.Agent.Api
   sponsor: TServiceGalleryQ32020
-
-- listing: NewRelic.Azure.WebSites
-  sponsor: TServiceGalleryQ32020
+  repo: newrelic/newrelic-dotnet-agent
 
 - listing: Npgsql
   sponsor: TServiceGalleryQ32020
@@ -260,9 +257,6 @@
   sponsor: TServiceGalleryQ32020
 
 - listing: Octokit.GraphQL
-  sponsor: TServiceGalleryQ32020
-
-- listing: PagerDuty.NET
   sponsor: TServiceGalleryQ32020
 
 - listing: PagerDutyClient
@@ -291,27 +285,35 @@
 
 - listing: Sharpbrake.Client
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: Sharpbrake.Extensions.Logging
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: Sharpbrake.Http.Middleware
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: Sharpbrake.Http.Module
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: Sharpbrake.Log4net
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: Sharpbrake.Log4net.Web
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: Sharpbrake.NLog
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: Sharpbrake.NLog.Web
   sponsor: TServiceGalleryQ32020
+  repo: airbrake/sharpbrake
 
 - listing: SlackAPI
   sponsor: TServiceGalleryQ32020
