@@ -1,8 +1,11 @@
-- service: ActiveMQ
+- service: Apache ActiveMQ
   logo_url: https://activemq.apache.org/assets/img/activemq_logo_black_small.png
   homepage_url: https://activemq.apache.org/
   packages:
   - name: Apache.NMS.ActiveMQ
+    official: true
+  - name: Apache.NMS
+    official: true
   tags:
   - messaging
   - jms

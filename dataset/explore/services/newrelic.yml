@@ -2,8 +2,6 @@
   homepage_url: https://newrelic.com
   packages:
   - name: NewRelic.Agent.Api
-  - name: NewRelic.Azure.WebSites
-    integration: true
   - name: NewRelic.Agent
   tags:
   - newrelic

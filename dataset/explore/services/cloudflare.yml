@@ -2,7 +2,6 @@
   logo_url: https://www.cloudflare.com/img/favicon/apple-touch-icon.png
   homepage_url: https://developers.cloudflare.com/docs/
   packages:
-  - name: CloudFlare.API
   - name: CloudFlare.Client
   tags:
   - cloudflare
