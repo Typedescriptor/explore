@@ -11,17 +11,16 @@ Usage:
   --version             Show version
 
 """
-from docopt import docopt
+import subprocess
+import sys
+import tempfile
+from os import environ, path
+from sys import stderr
 
 import requests
-from sys import stderr
-from os import path, environ
-import sys
 import yaml
-import tempfile
-import subprocess
 from bs4 import BeautifulSoup
-
+from docopt import docopt
 
 # Allow importing modules from the project directory
 sys.path.append(path.abspath(path.dirname(__file__) + "/.."))
@@ -36,7 +35,6 @@ def run(args):
 
 def _launch_pyshell(url):
     _, load_script = tempfile.mkstemp()
-    print(load_script)
     with open(load_script, "w") as f:
         f.write(
             f"""

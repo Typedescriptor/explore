@@ -12,17 +12,17 @@ Usage:
   --version             Show version
 
 """
-from docopt import docopt
+import re
+import sys
+import urllib.parse
+from copy import deepcopy
+from os import devnull, environ, path
+from sys import stderr
 
 import requests
-from sys import stderr
-from os import path, environ, devnull
-import sys
 import yaml
 from bs4 import BeautifulSoup
-from copy import deepcopy
-import urllib.parse
-
+from docopt import docopt
 
 # Allow importing modules from the project directory
 sys.path.append(path.abspath(path.dirname(__file__) + "/.."))
@@ -66,6 +66,8 @@ def _enrich(file: str, in_place: bool):
     for item in y:
         if "service" in item:
             changed = changed | _core_enrich_service(item)
+        elif "collection" in item:
+            pass  # Not supported
 
     output = sys.stdout
     if in_place:
@@ -79,6 +81,8 @@ def _enrich(file: str, in_place: bool):
 
 def _core_enrich_service(service) -> bool:
     original_service = deepcopy(service)
+    for k, guesser in guessers.items():
+        guesser(service)
     for k, v in enrichments.items():
         enricher = enrichments[k]
         old_value = service.get(k)
@@ -89,11 +93,14 @@ def _core_enrich_service(service) -> bool:
 
 def _get_page(url: str) -> BeautifulSoup:
     if url is None:
-        return BeautifulSoup()
+        return BeautifulSoup(features="html.parser")
 
-    debug(f"Download page '{url}'")
-    page = global_session.get(url).text
-    return BeautifulSoup(page, features="html.parser")
+    if url not in _page_cache:
+        debug(f"Download page '{url}'")
+        page = global_session.get(url).text
+        _page_cache[url] = BeautifulSoup(page, features="html.parser")
+
+    return _page_cache[url]
 
 
 def _enrich_description(service, value):
@@ -131,6 +138,24 @@ def _enrich_links(service, value):
     return value
 
 
+def _guess_social_media_links(service):
+    homepage_url = service.get("homepage_url")
+    if homepage_url is None:
+        return
+    page = _get_page(homepage_url)
+    existing_links = set([u.get("url") for u in service.get("links") or []])
+
+    for site, pattern in _social_media.items():
+        result = page.find("a", attrs={"href": pattern})
+        if result is None:
+            continue
+        url = result.get("href")
+        if url not in existing_links:
+            if service.get("links") is None:
+                service["links"] = []
+            service["links"].append({"url": url, "title": site})
+
+
 def _enrich_logo_url(service, value):
     if service.get("logo_url") is not None:
         return None
@@ -156,6 +181,10 @@ def _enrich_logo_url(service, value):
 
 def _enrichment_name(symbol):
     return symbol[len("_enrich_") :]
+
+
+def _guesser_name(symbol):
+    return symbol[len("_guess_") :]
 
 
 def _debug(text):
@@ -191,6 +220,20 @@ enrichments = {
     for k, v in locals().items()
     if callable(v) and k.startswith("_enrich_")
 }
+
+guessers = {
+    _guesser_name(k): v
+    for k, v in locals().items()
+    if callable(v) and k.startswith("_guess_")
+}
+
+_social_media = {
+    "Twitter": re.compile(r"https://twitter\.com/\w+"),
+    "GitHub": re.compile(r"https://github\.com/\w+"),
+    "LinkedIn": re.compile(r"https://linkedin\.com/company/\w+"),
+}
+
+_page_cache = {}
 
 
 if __name__ == "__main__":
