@@ -1,0 +1,27 @@
+- listing: Autofac
+  repo: autofac/autofac
+
+- listing: Avalonia
+  repo: AvaloniaUI/Avalonia
+
+- listing: Avalonia.Desktop
+  repo: AvaloniaUI/Avalonia
+
+- listing: Newtonsoft.Json
+  repo: JamesNK/Newtonsoft.Json
+
+- listing: Newtonsoft.Json.Schema
+  repo: JamesNK/Newtonsoft.Json.Schema
+
+- listing: StructureMap
+  repo: structuremap/structuremap
+
+- listing: xunit
+  repo: xunit/xunit
+
+- listing: xunit.abstractions
+- listing: xunit.analyzers
+- listing: xunit.assert
+- listing: xunit.core
+- listing: xunit.extensibility.core
+- listing: xunit.extensibility.execution

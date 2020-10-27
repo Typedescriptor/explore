@@ -1,3 +1,4 @@
 - framework: .NET Core 3.0
   version: 3.0.0
   sdk_version: 3.0.100
+  moniker: netcoreapp-3.0
