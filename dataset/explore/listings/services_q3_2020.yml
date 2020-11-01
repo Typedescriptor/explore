@@ -280,6 +280,10 @@
 - listing: Sentry.AspNetCore
   sponsor: TServiceGalleryQ32020
 
+- listing: Sentry.Extensions.Logging
+- listing: Sentry.PlatformAbstractions
+- listing: Sentry.Protocol
+
 - listing: ServiceNow.Api
   sponsor: TServiceGalleryQ32020
 
