@@ -1,0 +1,4 @@
+- framework: .NET 5.0
+  version: 5.0.0
+  sdk_version: 5.0.100
+  moniker: net-5.0
