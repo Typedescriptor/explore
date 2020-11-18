@@ -1,0 +1,11 @@
+- gallery: Services Gallery Research
+  description: |
+    Typedescriptor introduced the Services Gallery research project to
+    curate listings based on popular, interesting, and essential cloud
+    and SaaS that works with .NET.  To see the research project, visit
+    <a href="https://typedescriptor.net/research/services"> Services
+    Gallery </a>.
+  date:
+  listings:
+  - scope: GLOB_FILES
+    glob: services_*.yml
