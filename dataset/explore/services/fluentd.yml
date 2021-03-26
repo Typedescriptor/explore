@@ -14,4 +14,5 @@
     title: Twitter
   - url: https://github.com/fluent/fluentd
     title: GitHub
-  logo_url: https://www.fluentd.org/favicon.ico
+  logo_url: https://www.fluentd.org/images/miscellany/fluentd-logo.png
+  onbrand/status: NOT_AVAILABLE, LOW_QUALITY

@@ -1,5 +1,5 @@
 - service: Microsoft Azure Batch
-  logo_url: https://azurecomcdn.azureedge.net/cvt-64be09a4667f24e37ba756cd9aacfcf3decbce6fb72c1679c6835655dcc3da36/images/shared/social/azure-icon-250x250.png
+  logo_url: https://typedescriptor.net/static/onbrand/logos/m/microsoft-azure-f0014a08da64.svg
   homepage_url: https://azure.microsoft.com
   packages:
   - name: Microsoft.Azure.Batch

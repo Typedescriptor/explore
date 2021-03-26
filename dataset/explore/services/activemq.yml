@@ -1,5 +1,5 @@
 - service: Apache ActiveMQ
-  logo_url: https://activemq.apache.org/assets/img/activemq_logo_black_small.png
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/apache-activemq-3800795d8cb2.svg
   homepage_url: https://activemq.apache.org/
   packages:
   - name: Apache.NMS.ActiveMQ

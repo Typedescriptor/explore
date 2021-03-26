@@ -1,5 +1,5 @@
 - service: Aerospike
-  logo_url: https://www.aerospike.com/
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/aerospike-8271e0a5f0de.svg
   homepage_url: https://www.aerospike.com/
   packages:
   - name: Aerospike.Client

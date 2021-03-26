@@ -13,4 +13,5 @@
     title: Twitter
   - url: https://github.com/apache/druid/
     title: GitHub
-  logo_url: https://druid.apache.org/img/favicon.png
+  logo_url: https://druid.apache.org/img/druid_nav.png
+  onbrand/status: NOT_AVAILABLE, LOW_QUALITY

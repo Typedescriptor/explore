@@ -14,4 +14,5 @@
   - url: https://www.cockroachlabs.com/docs/stable/build-a-csharp-app-with-cockroachdb.html
     title: Build a C# App with CockroachDB and the .NET Npgsql Driver | CockroachDB
       Docs
-  logo_url: https://www.cockroachlabs.com/wp-content/uploads/2020/01/BSL-hero.jpg
+  logo_url: https://crl2020.imgix.net/img/cockroachlabs-logo-170.png?auto=format,compress
+  onbrand/status: NOT_AVAILABLE, LOW_QUALITY

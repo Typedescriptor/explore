@@ -1,5 +1,4 @@
 - service: Microsoft Active Directory
-  logo_url: https://azurecomcdn.azureedge.net/cvt-64be09a4667f24e37ba756cd9aacfcf3decbce6fb72c1679c6835655dcc3da36/images/shared/social/azure-icon-250x250.png
   homepage_url: https://azure.microsoft.com/en-us/services/active-directory/
   packages:
   - name: Microsoft.Identity.Client
@@ -14,3 +13,5 @@
   links:
   - url: https://twitter.com/azure
     title: Twitter
+  logo_url: https://typedescriptor.net/static/onbrand/logos/m/microsoft-c4a4acdd463f.svg
+  onbrand/status: REDUCTIVE

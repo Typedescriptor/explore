@@ -13,4 +13,5 @@
       \ Used Software Load Balancer"
   - url: https://github.com/haproxy/haproxy
     title: GitHub
-  logo_url: http://www.haproxy.org/
+  logo_url: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
+  onbrand/status: NOT_AVAILABLE, LOW_QUALITY

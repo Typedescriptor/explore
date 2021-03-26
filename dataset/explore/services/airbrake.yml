@@ -1,5 +1,5 @@
 - service: Airbrake
-  logo_url: https://airbrake.io/docs/assets/img/logos/airbrake-logo.svg
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/airbrake-fad58f6b9bb7.svg
   homepage_url: https://airbrake.io
   packages:
   - name: Sharpbrake.Client

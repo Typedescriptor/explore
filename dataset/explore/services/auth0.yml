@@ -1,5 +1,5 @@
 - service: Auth0
-  logo_url: https://cdn.auth0.com/website/homepage/tc/twitter-card-en.png
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/auth0-969be71750f2.svg
   homepage_url: https://auth0.com/
   packages:
   - name: Auth0.Core

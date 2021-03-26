@@ -1,5 +1,5 @@
 - service: Adyen
-  logo_url: https://docs.adyen.com/user/themes/adyen-docs/images/apple-icon-180x180.png
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/adyen-e7af8958d731.svg
   homepage_url: https://www.adyen.com
   packages:
   - name: Adyen

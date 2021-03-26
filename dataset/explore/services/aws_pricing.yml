@@ -1,5 +1,5 @@
 - service: AWS Pricing
-  logo_url: https://avatars2.githubusercontent.com/u/2232217?s=400&v=4
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/amazon-web-services-8108d5725d48.svg
   homepage_url: https://github.com/aws/aws-sdk-net/
   packages:
   - name: AWSSDK.Pricing

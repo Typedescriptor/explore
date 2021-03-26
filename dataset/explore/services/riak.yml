@@ -10,4 +10,5 @@
   links:
   - url: https://github.com/basho-labs/riak_explorer
     title: GitHub
-  logo_url: https://riak.com/content/uploads/2015/04/riak-ts-demo-video-thumb-home.jpg
+  logo_url: https://riak.com/content/themes/basho-v2/dist/images/riak.png
+  onbrand/status: NOT_AVAILABLE, LOW_QUALITY

@@ -1,5 +1,5 @@
 - service: Cloudflare
-  logo_url: https://www.cloudflare.com/img/favicon/apple-touch-icon.png
+  logo_url: https://typedescriptor.net/static/onbrand/logos/c/cloudflare-f9b7e9f90f9c.svg
   homepage_url: https://developers.cloudflare.com/docs/
   packages:
   - name: CloudFlare.Client

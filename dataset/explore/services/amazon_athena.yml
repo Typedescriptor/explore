@@ -1,5 +1,5 @@
 - service: AWS Athena
-  logo_url: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/amazon-web-services-8108d5725d48.svg
   homepage_url: https://aws.amazon.com/athena/
   packages:
   - name: AWSSDK.Athena

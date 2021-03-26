@@ -1,5 +1,5 @@
 - service: Algolia
-  logo_url: https://res.cloudinary.com/hilnmyskv/image/upload/v1527077656/Algolia_OG_image_m3xgjb.png
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/algolia-0fab5dadd567.svg
   homepage_url: https://www.algolia.com/
   packages:
   - name: Algolia.Search
