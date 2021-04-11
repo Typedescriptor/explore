@@ -1,5 +1,5 @@
 - service: Microsoft Azure App Services
-  logo_url: https://typedescriptor.net/static/onbrand/logos/m/microsoft-azure-f0014a08da64.svg
+  logo_url: https://typedescriptor.net/static/onbrand/logos/m/microsoft-azure-ac4aab5498c8.svg
   homepage_url: https://azure.microsoft.com/en-us/services/app-service/
   packages:
   - name: Microsoft.Azure.AppService.ApiApps.Service

@@ -1,5 +1,5 @@
 - service: ClickHouse
-  logo_url: https://typedescriptor.net/static/onbrand/logos/c/clickhouse-c2a9ea925fe5.svg
+  logo_url: https://typedescriptor.net/static/onbrand/logos/c/clickhouse-0cfedb31a6ff.svg
   homepage_url: https://clickhouse.tech/
   packages:
   - name: ClickHouse.Net

@@ -1,5 +1,5 @@
 - service: Adyen
-  logo_url: https://typedescriptor.net/static/onbrand/logos/a/adyen-e7af8958d731.svg
+  logo_url: https://typedescriptor.net/static/onbrand/logos/a/adyen-6e35653664ec.svg
   homepage_url: https://www.adyen.com
   packages:
   - name: Adyen
