@@ -10,7 +10,6 @@ mypy = "*"
 flake8 = "*"
 
 [packages]
-docopt = "*"
 click = "*"
 PyYAML = "*"
 requests = "*"
