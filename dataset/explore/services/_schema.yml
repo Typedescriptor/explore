@@ -1,6 +1,6 @@
 - _type: Schema
   name: Explore Services
-  entities:
+  articles:
   - name: Service
     constructor:
       implicit: true

@@ -1,0 +1,10 @@
+- _type: Schema
+  name: Explore Listings
+  articles:
+  - name: Listing
+    constructors:
+      - name: listing
+        name: $value
+    attributes:
+    - name: listing
+    - name: repo

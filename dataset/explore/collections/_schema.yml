@@ -1,6 +1,6 @@
 - _type: Schema
   name: Explore Collections
-  entities:
+  articles:
   - name: Collection
     constructor:
       implicit: true
@@ -16,6 +16,7 @@
       type: JSON
     - name: sponsorships
       type: JSON
+    - name: uuid
     - name: repositories
       type: JSON
     - name: tags

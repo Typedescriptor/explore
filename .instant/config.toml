@@ -1,0 +1,6 @@
+[server]
+  host = "localhost"
+  prefix = "/"
+  port = 1619
+  pretty-print = false
+  service = "default"
