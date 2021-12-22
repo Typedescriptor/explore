@@ -1,8 +1,9 @@
 - gallery: Inaugural Packages
   description: These were the inaugural packages listed on Typedescriptor.
   date:  Tue May 21 00:00:00 2019 -0700
-  listings:
-  - scope: THIS_FILE
+
+- scope: THIS_FILE
+  gallery: "Inaugural Packages"
 
 - listing: Autofac
   repo: autofac/autofac
